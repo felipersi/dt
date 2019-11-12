@@ -21,7 +21,7 @@ Após ter o servidor com os requisitos adequados para o funcionamento, você só
 Você precisará criar crons no servidor para executar os arquivos `monitora.php` e `upload.php`. Estes arquivos controlam o dowload e upload, particularmente eu defini a cron a cada 2 minutos para monitora.php e a cada 3 minutos para upload.php.
 
 
-##Como utilizar
+## Como utilizar
 
 No arquivo da raiz `config.php` digite os dados do seu banco de dados
 ```bash
@@ -30,6 +30,8 @@ define('DB_SENHA', 'senha_banco');
 define('DB_HOST', 'localhost');
 define('DB_NOME', 'nome_banco');
 ```
+Após é somente você preencher os camos de origem e destino.
+
 ## Suporte
 luis.felipersi@gmail.com
 
