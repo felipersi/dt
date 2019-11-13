@@ -55,5 +55,5 @@ $dados_migracao = array(
 ?>
 
 <script type="text/javascript">
-window.location.href = 'http://chamadosn1.kinghost.net/ftp';
+window.location.href = 'http://localhost/ftp';
 </script>
